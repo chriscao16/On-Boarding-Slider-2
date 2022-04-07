@@ -167,4 +167,4 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-// this is a test for reverting a commit
+// this is a test for reverting a commit (test)
