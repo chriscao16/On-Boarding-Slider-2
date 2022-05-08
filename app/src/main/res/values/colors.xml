@@ -7,4 +7,6 @@
     <color name="colorTextSecondary">#757575</color>
     <color name="colorBackground">#FFFFFF</color>
     <color name="colorOnboadingInactive">#72BCF7</color>
+    <color name="semi_transparent">#96000000</color>
+    <color name="ic_launcher_background">#43A047</color>
 </resources>

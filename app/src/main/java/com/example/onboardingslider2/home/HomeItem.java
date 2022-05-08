@@ -1,4 +1,4 @@
-package com.example.onboardingslider2;
+package com.example.onboardingslider2.home;
 
 public class HomeItem {
 

@@ -16,4 +16,4 @@ rootProject.name = "On Boarding Slider 2"
 include ':app'
 include ':GestureSampleLibrary'
 include ':gesturesamplelibrary'
-include ':main'
+include ':GestureLibrarySample'

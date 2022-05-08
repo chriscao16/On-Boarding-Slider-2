@@ -1,17 +1,15 @@
-package com.example.onboardingslider2;
+package com.example.onboardingslider2.home;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
-
-import com.google.android.material.button.MaterialButton;
+import com.example.onboardingslider2.LotActivity;
+import com.example.onboardingslider2.R;
 
 import java.util.ArrayList;
 import java.util.List;
