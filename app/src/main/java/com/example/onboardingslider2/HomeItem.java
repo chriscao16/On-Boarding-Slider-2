@@ -1,10 +1,9 @@
 package com.example.onboardingslider2;
 
-public class OnboardingItem {
+public class HomeItem {
 
     private int image;
     private String title;
-    private String description;
 
     public int getImage() {
         return image;
@@ -20,13 +19,5 @@ public class OnboardingItem {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 }

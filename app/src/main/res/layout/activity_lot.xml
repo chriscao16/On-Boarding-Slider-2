@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LotActivity">
+
+    <Button
+        android:id="@+id/D5_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D5 Masking"
+        app:layout_constraintBottom_toTopOf="@+id/D6_button"
+        app:layout_constraintEnd_toStartOf="@+id/H5_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/D6_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D6 Masking"
+        app:layout_constraintBottom_toTopOf="@+id/D7_button"
+        app:layout_constraintEnd_toStartOf="@+id/H6_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/D5_button" />
+
+    <Button
+        android:id="@+id/D7_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D7 Masking"
+        app:layout_constraintBottom_toTopOf="@+id/D8_button"
+        app:layout_constraintEnd_toStartOf="@+id/H7_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/D6_button" />
+
+    <Button
+        android:id="@+id/D8_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D8 Masking"
+        app:layout_constraintBottom_toTopOf="@+id/D9_button"
+        app:layout_constraintEnd_toStartOf="@+id/H8_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/D7_button" />
+
+    <Button
+        android:id="@+id/D9_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D9 Masking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/H9_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/D8_button" />
+
+
+    <Button
+        android:id="@+id/H9_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H9 Masking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/D9_button"
+        app:layout_constraintTop_toBottomOf="@+id/H8_button" />
+
+    <Button
+        android:id="@+id/H5_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H5 Masking"
+        app:layout_constraintBottom_toTopOf="@+id/H6_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/D5_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/H6_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H6 Masking"
+        app:layout_constraintBottom_toTopOf="@+id/H7_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/D6_button"
+        app:layout_constraintTop_toBottomOf="@+id/H5_button" />
+
+    <Button
+        android:id="@+id/H7_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H7 Masking"
+        app:layout_constraintBottom_toTopOf="@+id/H8_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/D7_button"
+        app:layout_constraintTop_toBottomOf="@+id/H6_button" />
+
+    <Button
+        android:id="@+id/H8_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H8 Masking"
+        app:layout_constraintBottom_toTopOf="@+id/H9_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/D8_button"
+        app:layout_constraintTop_toBottomOf="@+id/H7_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

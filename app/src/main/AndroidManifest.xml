@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OnBoardingSlider2">
         <activity
-            android:name=".HomeActivity"
+            android:name=".LotActivity"
             android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
