@@ -16,6 +16,7 @@
 
 package com.example.onboardingslider2.fragments;
 
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -37,7 +38,7 @@ public class MainLayoutFragment extends BaseFragment {
   private static final String TEXT_KEY = "text_key";
   private static final String FOOTER_KEY = "footer_key";
   private static final String TIMESTAMP_KEY = "timestamp_key";
-  private static final int BODY_TEXT_SIZE = 40;
+  private static final int BODY_TEXT_SIZE = 20;
 
   /**
    * Returns new instance of {@link MainLayoutFragment}.
@@ -47,15 +48,15 @@ public class MainLayoutFragment extends BaseFragment {
    * @param timestamp is a String with the card timestamp text.
    */
   public static MainLayoutFragment newInstance(String text, String footer, String timestamp,
-      @Nullable Integer menu) {
+      @Nullable Integer image) {
     final MainLayoutFragment myFragment = new MainLayoutFragment();
 
     final Bundle args = new Bundle();
     args.putString(TEXT_KEY, text);
     args.putString(FOOTER_KEY, footer);
     args.putString(TIMESTAMP_KEY, timestamp);
-    if (menu != null) {
-      args.putInt(MENU_KEY, menu);
+    if (image != null) {
+      args.putInt(MENU_KEY, image);
     }
     myFragment.setArguments(args);
 
@@ -71,16 +72,20 @@ public class MainLayoutFragment extends BaseFragment {
       final TextView textView = new TextView(getContext());
       textView.setText(getArguments().getString(TEXT_KEY, getString(R.string.empty_string)));
       textView.setTextSize(BODY_TEXT_SIZE);
+      textView.setTextColor(Color.WHITE);
       textView.setTypeface(Typeface.create(getString(R.string.thin_font), Typeface.NORMAL));
+
 
       final FrameLayout bodyLayout = view.findViewById(R.id.body_layout);
       bodyLayout.addView(textView);
 
       final TextView footer = view.findViewById(R.id.footer);
       footer.setText(getArguments().getString(FOOTER_KEY, getString(R.string.empty_string)));
+      footer.setTextColor(Color.WHITE);
 
       final TextView timestamp = view.findViewById(R.id.timestamp);
       timestamp.setText(getArguments().getString(TIMESTAMP_KEY, getString(R.string.empty_string)));
+      timestamp.setTextColor(Color.WHITE);
     }
     return view;
   }

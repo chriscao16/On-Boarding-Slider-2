@@ -16,6 +16,7 @@
 
 package com.example.onboardingslider2.fragments;
 
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -39,7 +40,7 @@ public class ColumnLayoutFragment extends BaseFragment {
   private static final String TEXT_KEY = "text_key";
   private static final String FOOTER_KEY = "footer_key";
   private static final String TIMESTAMP_KEY = "timestamp_key";
-  private static final int TEXT_SIZE = 30;
+  private static final int TEXT_SIZE = 20;
   private static final int IMAGE_PADDING = 40;
 
   /**
@@ -82,15 +83,18 @@ public class ColumnLayoutFragment extends BaseFragment {
       textView.setText(getArguments().getString(TEXT_KEY));
       textView.setTextSize(TEXT_SIZE);
       textView.setTypeface(Typeface.create(getString(R.string.thin_font), Typeface.NORMAL));
+      textView.setTextColor(Color.WHITE);
 
       final FrameLayout rightColumn = view.findViewById(R.id.right_column);
       rightColumn.addView(textView);
 
       final TextView footer = view.findViewById(R.id.footer);
       footer.setText(getArguments().getString(FOOTER_KEY, getString(R.string.empty_string)));
+      footer.setTextColor(Color.WHITE);
 
       final TextView timestamp = view.findViewById(R.id.timestamp);
       timestamp.setText(getArguments().getString(TIMESTAMP_KEY, getString(R.string.empty_string)));
+      timestamp.setTextColor(Color.WHITE);
     }
     return view;
   }

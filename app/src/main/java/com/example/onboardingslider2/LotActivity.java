@@ -10,16 +10,16 @@ import androidx.appcompat.app.AppCompatActivity;
 public class LotActivity extends AppCompatActivity {
 
     // Variables
-    private Button D5_button;
+    private Button button_pizza;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lot);
 
-        D5_button = findViewById(R.id.D5_button);
+        button_pizza = findViewById(R.id.button_pizza);
 
-        D5_button.setOnClickListener(new View.OnClickListener() {
+        button_pizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));

@@ -7,8 +7,13 @@
     <string name="footnote_sample">This is the footnote</string>
     <string name="timestamp_sample">just now</string>
     <string name="columns_sample">You can put the centered image inside of the COLUMNS layout.</string>
-    <string name="text_sample">This is the TEXT layout. The text size is up to you.</string>
-    <string name="different_options">You can also add menu with different options for each fragment.</string>
+    <string name="task_intro">Who needs pizza delivery when you can make your own pizza pie at home? Making a pizza from scratch is a simple process, and you can create your pizza just the way you like it by adding whatever toppings you want:</string>
+    <string name="dough_instructions">In a large mixing bowl, combine a package of active dry yeast and 1 1/2 cups warm water.Add 2 tablespoons olive oil, 2 teaspoons salt, and 3 1/4 cups flour, and work the ingredients together. \n \n
+        Beat up dough as such:</string>
+    <string name="tomato_instructions">Add the crushed tomatoes, tomato paste, sugar, salt, basil, oregano, some freshly cracked pepper , and a pinch of red pepper flakes. Stir to combine. \n \n
+Cover the pot, allow the pot to come to a simmer, then reduce the heat to low, and let simmer for 15 minutes minimum, or up to 30 minutes</string>
+    <string name="combine_instructions">Place your toppings on the dough.Toppings on traditional Italian pies are generally light. Italians are AGHAST at American pizzas with tons of meat and cheese.</string>
+    <string name="bake_instructions">Bake the pizza in a 450-degree oven until the cheese turns golden brown in spots and the edge of the crust looks golden brown.</string>
     <string name="add">Add</string>
     <string name="save">Save</string>
     <string name="delete">Delete</string>
